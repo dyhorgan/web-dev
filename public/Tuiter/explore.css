@@ -1,0 +1,128 @@
+
+.margin {
+  margin-right: 16px;
+  margin-left: 16px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.border-left {
+  border-left: 3px solid rgb(64,64,64);
+}
+
+.blackBackground {
+  background-color: black;
+}
+
+.searchInput {
+  border-radius: 50px;
+  width: 60%;
+  background-color: gray;
+}
+
+::placeholder {
+  color: white;
+  font-size: 150%;
+}
+
+.padding-small {
+  padding: 2em;
+}
+
+.white {
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center {
+  text-align: center;
+}
+
+.upper-padding {
+  padding-top: 2%
+}
+
+.linkSize {
+  font-size: 15px;
+}
+
+.border-bottom {
+  border-bottom: 5px solid rgb(29, 161, 242);
+}
+
+.gray-border {
+border-top: 50px solid rgb(64,64,64);
+}
+
+.gray-background {
+  background-color: rgb(40,40,40);
+  border-top: 3px solid rgb(120,120,120);
+  border-bottom: 3px solid 	rgb(120,120,120);
+  height: 3em;
+}
+
+.topic-border-bottom {
+  border-bottom: 3px solid 	rgb(120,120,120);
+}
+.blue {
+  color: rgb(29, 161, 242);
+}
+
+.topic-height {
+  height: 6.5em;
+}
+
+.grayed-text {
+  color: rgb(100,100,100);
+}
+
+
+.text-image-row{
+display: flex;
+align-items: flex-start;
+}
+.post-row {
+display: flex;
+align-items: flex-start;
+}
+.left-pad {
+  padding-left: 2em;
+}
+
+.white-border {
+  border: 4px;
+  color: white;
+}
+
+.tiny-pad {
+  padding-left: 1em;
+}
+
+.align-right {
+text-align: right;
+}
+
+.align-left {
+text-align: left;
+}
+
+.giant-pad {
+  margin-left: auto;
+  padding-right: 10%;
+}
+
+.image-radius {
+border-radius: 20px;
+}
+
+.medium-font {
+font-size: 1.5em
+}
+
+.small-pad {
+  padding-left: 1.4em;
+}
