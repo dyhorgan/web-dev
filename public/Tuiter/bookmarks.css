@@ -1,0 +1,77 @@
+.margin {
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.background-black {
+  background-color: black;
+}
+
+.white {
+color: white;
+}
+
+.align-right {
+text-align: right;
+}
+
+.row {
+display: flex;
+align-items: flex-start;
+}
+
+.flex-right {
+margin-left: auto;
+}
+
+.bottom-border {
+  border-bottom: 5px solid gray;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 10%;
+  height: 9em;
+}
+
+.space-right {
+  padding-right: 1em;
+}
+
+.gray {
+color: gray;
+}
+
+.card-view {
+  border-radius: 10%;
+  border: 2px solid white;
+  width: 80%;
+  height: 55em;
+  overflow: hidden;
+}
+
+.tiny-pad {
+padding-left: 1em;
+}
+
+.additional-margin {
+position:absolute;
+left:300px;
+}
+
+.top-padding {
+  padding-top: 58em;
+}
+
+.other-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-text {
+  font-size: 2em;
+}
+
+.left-border {
+  border-left: 2px solid gray
+}
