@@ -4,52 +4,178 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link href="explore.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
-<body class="margin blackBackground">
+<body class="margin">
 
-<div class="border-left">
+<div class="container rounded overrode-bs">
+  <div class="row">
+
+<div class="container col-xxl-2 col-xl-2 col-lg-1 col-med-2 col-sm-3 col-xs-3 firstColumnPad">
+  <div>
+  <div class="border-gray">
+    <img src="tweettweet.png" width="10%" class="d-sm-none d-med-none d-lg-none d-xl-block d-xxl-block"/>
+    <img src="tweettweet.png" width="50%" class="d-sm-block d-med-block d-lg-block d-xl-none d-xxl-none"/>
+  </div>
+
+  <div class="border-gray container">
+    <img src="home.png" class="d-xl-none tinyIconAdjust" height="20em">
+
+    <div class="row">
+    <img src="home.png" class="col-3 tinyTopPad smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" height="20em">
+
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Home
+    </div>
+    </div>
+  </div>
+
+  <div class="border-gray white background-blue container">
+    <img src="hashtag.png" class="d-xl-none tinyIconAdjust" height="20em">
+    <div class="row">
+    <img src="hashtag.png" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Explore
+    </div>
+    </div>
+  </div>
+
+  <div class="border-gray container">
+    <img src="bell.png" class="d-xl-none tinyIconAdjust" height="20em">
+    <div class="row">
+    <img src="bell.png" width="15em" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Notifications
+      </div>
+    </div>
+  </div>
+
+  <div class="border-gray container">
+    <img src="email.png" class="d-xl-none tinyIconAdjust" height="20em">
+    <div class="row">
+    <img src="email.png" width="15em" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Messages
+    </div>
+    </div>
+  </div>
+
+  <div class="border-gray container">
+    <img src="bookmark.png" class="d-xl-none tinyIconAdjust" height="20em">
+    <div class="row">
+    <img src="bookmark.png" width="15em" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Bookmarks
+    </div>
+      </div>
+  </div>
+  <div class="border-gray container">
+    <img src="list.png" class="d-xl-none tinyIconAdjust" height="20em">
+    <div class="row">
+    <img src="list.png" width="15em" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Lists
+    </div>
+    </div>
+  </div>
+  <div class="border-gray container">
+    <img src="profile.png" class="d-xl-none tinyIconAdjust" height="20em">
+    <div class="row">
+    <img src="profile.png" width="15em" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+    <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+    Profiles
+    </div>
+    </div>
+  </div>
+
+    <div class="border-gray container">
+      <img src="more.png" class="d-xl-none tinyIconAdjust" height="20em">
+      <div class="row">
+        <img src="more.png" width="15em" class="col-3 pt-1 smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block"/>
+        <div class="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust">
+          More
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="topBorderPad">
+    <Button type="button" class="btn btn-primary override-bs tweetButton d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">Tweet</Button>
+    <Button type="button" class="btn btn-primary override-bs d-xl-none tweetButton2">Tweet</Button>
+  </div>
+
+</div>
+
+<div class="border-left container col-xxl-7 col-xl-7 col-lg-7 col-med-9 col-sm-9 col-xs-9 rounded override-bs bottom-border-gray">
 
 <div class="center">
-<input type="text" class="searchInput padding-small" placeholder="Search Tuiter"/>
-  <a src="explore-settings.html">
-<img src="wheels.png" height="40em" class="wheelsPadding"/>
-  </a>
-</div>
-<div class="row upper-padding ">
-  <div class="border-bottom">
-  <a class="blue linkSize">For You</a>
+
+  <div class="container searchMargin">
+    <form action="/" method="GET" class="form searchWidth">
+      <div class="search-icon">
+        <img src="glass.png" class="mb-2"/>
+      </div>
+      <input type="search" class="searchInput p-4 me-1" placeholder="Search Tuiter"/>
+      <img src="gears.png" class="gears"/>
+    </form>
   </div>
-<div>
-  <a class="white linkSize">Trending</a>
+
+<!--  <a src="explore-settings.html">-->
+
+<!--  </a>-->
 </div>
-<div>
-  <a class="white linkSize">Covid-19</a>
+
+  <div class="container rounded">
+
+  <div class="row pt-3">
+
+  <div class="col-2 other-border-gray">
+
+  <a class="linkSize noDec black">For You</a>
+  </div>
+<div class="col-2 bottom-border-thicker-gray">
+  <a class="linkSize noDec">Trending</a>
 </div>
-<div>
-  <a class="white linkSize">News</a>
+<div class="col-2 bottom-border-thicker-gray">
+  <a class="linkSize noDec">Covid-19</a>
 </div>
-<div>
-  <a class="white linkSize">Sports</a>
+<div class="col-2 bottom-border-thicker-gray">
+  <a class="linkSize noDec">News</a>
 </div>
-<div>
-  <a class="white linkSize">Entertainment</a>
+<div class="col-2 bottom-border-thicker-gray">
+  <a class="linkSize noDec">Sports</a>
 </div>
+<div class="col-2 bottom-border-thicker-gray">
+  <a class="linkSize noDec">Entertainment</a>
 </div>
-<div class="gray-background"></div>
+
+    </div>
+  </div>
+
+
+  <div class="pt-2 container">
+    <div class="form">
+      <h2 class="mainImageH ps-2 mt-10 white">Whale Shark</h2>
+      <img src="whaleShark.webp" width="100%" class="leftPad"/>
+    </div>
+  </div>
+
+  <div class="container">
 <div class="topic-border-bottom topic-height text-image-row">
 
 
   <div>
   <div class="post-row">
-  <div class="grayed-text left-pad">Topic</div>
+  <div class="grayed-text ps-4">Topic</div>
   <div class="grayed-text tiny-pad">Yesterday</div>
   </div>
-  <div class="white medium-font small-pad">Post Title 1</div>
-  <div class="grayed-text left-pad">Num of Tweets</div>
+  <div class="medium-font ps-4 bold">Post Title 1</div>
+  <div class="grayed-text ps-4">Num of Tweets</div>
   </div>
 
-  <div class="align-right giant-pad">
-    <img src="beluga.jpg" height="100em" width="160em" class="image-radius"/>
+  <div class="align-right giant-pad pt-1">
+    <img src="beluga.jpg" height="90em" width="140em" class="image-radius"/>
   </div>
 
 
@@ -59,32 +185,150 @@
 
   <div class="align-left">
   <div class="post-row">
-  <div class="white left-pad">Author</div>
+  <div class="ps-4">Author</div>
     <div><img src="bluecheck.png" height="20em"/></div>
     <div class="grayed-text tiny-pad">Yesterday</div>
   </div>
-  <div class="white medium-font small-pad">Post Title 2</div>
+  <div class="medium-font ps-4 bold">Post Title 2</div>
   </div>
 
-  <div class="align-right giant-pad">
-    <img src="cuttlefish.jpg" height="100em" width="160em" class="image-radius"/>
+  <div class="align-right giant-pad pt-1">
+    <img src="cuttlefish.jpg" height="90em" width="140em" class="image-radius"/>
   </div>
 </div>
 
 <div class="topic-border-bottom topic-height text-image-row">
   <div class="align-left">
   <div class="post-row">
-    <div class="grayed-text left-pad">Topic 3</div>
-    <div class="grayed-text tiny-pad">Live</div>
+    <div class="grayed-text ps-4">Topic 3</div>
+    <div class="grayed-text ps-4">Live</div>
   </div>
-  <div class="white medium-font small-pad">Post Title 3</div>
+  <div class="medium-font ps-4 bold">Post Title 3</div>
   </div>
 
-  <div class="align-right giant-pad">
-    <img src="walrus.jpg" height="100em" width="160em" class="image-radius"/>
+  <div class="align-right giant-pad pt-1">
+    <img src="walrus.jpg" height="90em" width="140em" class="image-radius"/>
   </div>
 
 </div>
+</div>
+
+</div>
+
+<div class="col-xxl-3 col-xl-3 col-lg-4 d-sm-none d-md-none d-xl-block border-left container rounded override-bs">
+
+  <div class="row bottom-border-gray border-right"><div class="bold">Who to Follow</div></div>
+
+  <div class="row bottom-border-gray border-right">
+    <div class="col-2">
+    <img src="java.png" width="100%"/>
+    </div>
+    <div class="col-6 container">
+      <div class="row">
+        <div class="col-3 bold">Java</div>
+        <div class="col-3">
+        <img src="check.jpeg" height="15em" width="100%" class="rounded-circle"/>
+        </div>
+      </div>
+      <div>
+        @Java
+      </div>
+    </div>
+    <div class="col-2 pt-1">
+    <button type=Button" class="btn btn-primary override-bs">Follow</button>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row bottom-border-gray border-right">
+    <div class="col-2">
+    <img src="relativitySpace.jpeg" width="100%"/>
+    </div>
+    <div class="col-6 container">
+      <div class="row">
+    <div class="col-6 bold">Relativity</div>
+        <div class="col-3">
+    <img src="check.jpeg" width="100%" height="15em" class="rounded-circle" />
+        </div>
+      </div>
+      <div>
+        @Relativity
+      </div>
+    </div>
+    <div class="col-2 pt-1">
+    <button type="Button" class="btn btn-primary override-bs ">Follow</button>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row bottom-border-gray border-right">
+    <div class="col-2">
+    <img src="virgin.svg" width="100%"/>
+    </div>
+    <div class="col-6 container"/>
+    <div class="row">
+    <div class="col-4 bold">Virgin</div>
+      <div class="col-3 checkPad roundImage">
+    <img src="check.jpeg" width="100%" height="15em" class="rounded-circle"/>
+      </div>
+    </div>
+    <div>
+      @Virgin
+    </div>
+    </div>
+    <div class="col-2 pt-1">
+    <button type="Button" class="btn btn-primary override-bs ">Follow</button>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row bottom-border-gray border-right">
+    <div class="col-2">
+    <img src="NASA.webp" width="100%"/>
+    </div>
+    <div class="col-6 container">
+      <div class="row">
+    <div class="col-4 bold">Nasa</div>
+        <div class="col-3">
+    <img src="check.jpeg" width="100%" height="15em" class="rounded-circle"/>
+        </div>
+      </div>
+      <div>
+        @Nasa
+      </div>
+    </div>
+    <div class="col-2 pt-1">
+    <button type="Button" class="btn btn-primary override-bs ">Follow</button>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  <div class="row bottom-border-gray border-right">
+    <div class="col-2">
+    <img src="Tesla.png" width="100%" height="30em"/>
+    </div>
+    <div class="col-6 container">
+      <div class="row">
+
+    <div class="col-4 bold">Tesla</div>
+        <div class="checkPad col-3">
+        <img src="check.jpeg" width="100%" height="15em" class="rounded-circle"/>
+        </div>
+        </div>
+
+      <div>
+        @Tesla
+      </div>
+    </div>
+    <div class="col-2 pt-1">
+    <button type="Button" class="btn btn-primary override-bs ">Follow</button>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+</div>
+
+  </div>
 </div>
 </body>
 </html>
