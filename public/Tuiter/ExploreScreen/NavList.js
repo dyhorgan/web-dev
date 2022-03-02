@@ -1,11 +1,11 @@
 import NavItem from "./NavItem.js";
 import data from "./NavData.js"
-const NavList = () => {
+const NavList = (active) => {
     return (`
 
             ${
                           data.map(data => {
-                         return(NavItem(data));
+                         return(NavItem(data, active));
                         }).join('')
                        }
 

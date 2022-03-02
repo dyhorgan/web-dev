@@ -46,7 +46,7 @@ const ExploreComponent = () => {
            <div class="pt-2 container">
                    <div class="form">
                      <h2 class="mainImageH ps-2 mt-10 white">Whale Shark</h2>
-                     <img src="whaleShark.webp" width="100%" class="leftPad"/>
+                     <img src="whaleShark.webp" width="105%" class="leftPad ps-4"/>
                    </div>
                  </div>
 

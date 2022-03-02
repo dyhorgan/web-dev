@@ -1,7 +1,13 @@
-const NavItem = (item) => {
+const NavItem = (item, active) => {
+
+    let cssActiveColor = '"navRow container ';
+        if(active === item.active){
+          cssActiveColor += 'blue"'
+        }
+
     return(`
 
-           <div class="container">
+           <div class=${cssActiveColor}>
                      <img src=${item.icon} class="d-xl-none tinyIconAdjust" height="20em">
 
                      <div class="row">

@@ -1,16 +1,16 @@
 const PostItem = (post) => {
     return(`
         <div class="container border-bottom">
-           <div class="row">
+           <div class="flexRow">
 
-              <div class="col-3 bold white">
+              <div class="bold white">
                   ${post.author}
-                  <img src="check.jpeg" height="15em" class="rounded-circle" />
+                  <img src="check.jpeg" height="20em" class="rounded-circle" />
               </div>
-              <div class="col-2">
+              <div>
                   ${post.handle}
               </div>
-              <div class="col-2">
+              <div>
                   ${post.time}
               </div>
 

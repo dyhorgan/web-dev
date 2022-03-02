@@ -74,7 +74,7 @@ border-top: 50px solid rgb(120,120,120);
 }
 
 .topic-height {
-  height: 6.5em;
+  height: 9.5em;
 }
 
 .grayed-text {
@@ -249,4 +249,8 @@ border-bottom: 2px solid rgb(100,100,100);
 .flexRow {
 display: flex;
 justify-content: flex-start;
+}
+
+.blue {
+background-color: rgb(173,216,230);
 }

@@ -2,12 +2,18 @@ import NavigationSidebar from "./NavigationSidebar.js";
 import PostSummaryList from "./PostSummaryList.js";
 import PostList from "./PostList.js";
 
+ import {active} from "./active.js";
+
+//let active = "home";
+
+
 (function ($) {
+
     $('#wd-explore').append(`
         <div class="row mt-2">
 
         <div class="col-2 col-md-2 col-lg-1 col-xl-2 container">
-            ${NavigationSidebar()}
+            ${NavigationSidebar(active)}
         </div>
         <div class="border-left bottom-border-gray col-6 col-md-6 col-lg-6 col-xl-6">
             ${PostList()}
@@ -18,5 +24,9 @@ import PostList from "./PostList.js";
 
         </div>
     `);
-    NavigationSidebar.setAttribute("active", "")
+
 })($);
+
+
+
+

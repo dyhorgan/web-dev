@@ -10,8 +10,8 @@ const PostSummaryItem = (postSummary) => {
 
 
                       <div class="bold white"> ${postSummary.userName}</div>
-                      <div class="col-2">
-                          <img src="check.jpeg" width="20px" height="20px" class="rounded-circle"/>
+                      <div>
+                          <img src="check.jpeg" width="22px" height="20px" class="rounded-circle"/>
                       </div>
                    <div>- ${postSummary.time}</div>
                 </div>

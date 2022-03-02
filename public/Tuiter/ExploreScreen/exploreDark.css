@@ -245,3 +245,12 @@ background-color: rgb(55,55,55);
 .topicDivider {
 border-bottom: 2px solid rgb(100,100,100);
 }
+
+.flexRow {
+display: flex;
+justify-content: flex-start;
+}
+
+.blue {
+background-color: rgb(173,216,230);
+}

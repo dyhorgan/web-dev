@@ -8,7 +8,10 @@ export default [
             {
                         icon: './whiteMail.png',
                         text: 'Messages', active: "messages"
-                        },
+                        },{
+                                                  icon: './colorHashtag.png',
+                                                  text: 'Explore', active: "explore", href: "../ExploreScreen/explore.html"
+                                                  },
                         {
                                     icon: './bookmark.png',
                                     text: 'Bookmarks', active: "bookmarks"

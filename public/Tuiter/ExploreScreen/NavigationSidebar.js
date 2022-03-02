@@ -1,8 +1,8 @@
 import NavList from "./NavList.js"
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
 
-            ${NavList()}
+            ${NavList(active)}
 
             <div class="d-grid mt-2">
                 <a href="tweet.html"
