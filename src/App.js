@@ -16,7 +16,7 @@ function App() {
                <Route path="/" exact={true} element={<Labs/>} />
                <Route path="/tuiter" exact={true} element={<Tuiter/>} />
                <Route path="/tuiter/explore" exact={true} element={<Tuiter/>} />
-               <Route path="/tuiter/home" exact={true} element={<HomeScreen/>} />
+               <Route path="/tuiter/homething" exact={true} element={<HomeScreen/>} />
                </Routes>
                </div>
                </BrowserRouter>
