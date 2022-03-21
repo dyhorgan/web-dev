@@ -18,7 +18,7 @@
                                     "text": "Bookmarks", "active": "bookmarks", "href": "/bookmark"
                                     },
                                     {
-                                                "icon": "./whiteLists.png",
+                                                "icon": "../whiteLists.png",
                                                 "text": "Lists", "active": "lists",
                                       "href": "/lists"
                                                 },
