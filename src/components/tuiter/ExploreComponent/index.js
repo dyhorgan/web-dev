@@ -25,22 +25,22 @@ const ExploreComponent = () => {
 
                      <div className="col-2 other-border-gray white">
 
-                       <a className="linkSize noDec white">For You</a>
+                       <a className="linkSize noDec white" href="">For You</a>
                      </div>
                      <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white">Trending</a>
+                       <a className="linkSize noDec white" href="">Trending</a>
                      </div>
                      <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white">Covid-19</a>
+                       <a className="linkSize noDec white" href="">Covid-19</a>
                      </div>
                      <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white">News</a>
+                       <a className="linkSize noDec white" href="">News</a>
                      </div>
                      <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white">Sports</a>
+                       <a className="linkSize noDec white" href="">Sports</a>
                      </div>
                      <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white">Entertainment</a>
+                       <a className="linkSize noDec white" href="">Entertainment</a>
                      </div>
 
                    </div>
