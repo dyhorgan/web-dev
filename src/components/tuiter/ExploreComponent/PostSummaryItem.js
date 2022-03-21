@@ -14,7 +14,7 @@ const PostSummaryItem = (postSummary) => {
 
                       <div className="bold white"> {postSummary.postSummary.userName}</div>
                       <div>
-                      <img src="check.jpeg" width="20px" height="20px" className="rounded-circle" alt=""/>
+                      <img src="../check.jpeg" width="20px" height="20px" className="rounded-circle" alt=""/>
                       </div>
 
 
