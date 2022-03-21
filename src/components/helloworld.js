@@ -6,10 +6,10 @@ const HelloWorld = () => {
         <>
         <h1>Hello World!</h1>
                   <Link to="/">
-                      Labs
+                      Labs!
                   </Link> |
                   <Link to="/tuiter">
-                      Tuiter
+                      Tuiter!
                   </Link>
         </>
     )
