@@ -7,14 +7,14 @@
             "href": "/notifications"
             },
             {
-                        "icon": "./whiteMail.png",
+                        "icon": "whiteMail.png",
                         "text": "Messages", "active": "messages", "href": "/messages"
                         },{
                                                   "icon": "https://www.citypng.com/public/uploads/preview/-115911366970a4vxyxehw.png",
                                                   "text": "Explore", "active": "explore", "href": "/tuiter/explore"
                                                   },
                         {
-                                    "icon": "./bookmark.png",
+                                    "icon": "bookmark.png",
                                     "text": "Bookmarks", "active": "bookmarks", "href": "/bookmark"
                                     },
                                     {
