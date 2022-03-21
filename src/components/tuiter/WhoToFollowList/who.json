@@ -4,7 +4,7 @@
         {   "avatarIcon": "./relativitySpace.jpeg",
             "userName": "Relativity Space",
             "handle": "relativityspace" },
-        {   "avatarIcon": "./virgin.svg",
+        {   "avatarIcon": "../virgin.svg",
             "userName": "Virgin Galactic",
             "handle": "virgingalactic" },
         {   "avatarIcon": "./NASA.webp",
