@@ -255,3 +255,7 @@ justify-content: flex-start;
 background-color: rgb(173,216,230);
 }
 
+.smallerFont {
+  font-size: 5px;
+}
+
