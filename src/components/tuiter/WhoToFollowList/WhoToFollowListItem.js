@@ -11,7 +11,7 @@ const WhoToFollowListItem = (props) => {
                     <div className="row">
                       <div className="col-7 bold white">{props.listItem.userName}</div>
                       <div className="col-3">
-                        <img src="check.jpeg" width="300%" height="15em" className="rounded-circle" alt=""/>
+                        <img src="../check.jpeg" width="300%" height="15em" className="rounded-circle" alt=""/>
                       </div>
                     </div>
                     <div className="white">
