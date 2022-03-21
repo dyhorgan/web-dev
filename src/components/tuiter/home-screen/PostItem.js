@@ -8,7 +8,7 @@ const PostItem = (props) => {
 
               <div className="bold white">
                   {props.fullPost.author}
-                  <img src="check.jpeg" height="20em" className="rounded-circle" />
+                  <img src="check.jpeg" height="20em" className="rounded-circle" alt=""/>
               </div>
               <div className="white">
                   {props.fullPost.handle}
@@ -32,7 +32,7 @@ const PostItem = (props) => {
            <div className="row">
 
            <div className="col-12 image-radius">
-           <img src={props.fullPost.image} width="100%" height="250em" className="image-radius" />
+           <img src={props.fullPost.image} width="100%" height="250em" className="image-radius" alt=""/>
            </div>
 
            </div>

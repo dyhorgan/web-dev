@@ -49,7 +49,7 @@ const ExploreComponent = () => {
            <div className="pt-2 container">
                    <div className="form">
                      <h2 className="mainImageH ps-2 mt-10 white">Whale Shark</h2>
-                     <img src="whaleShark.webp" width="105%" className="leftPad ps-4"/>
+                     <img src="whaleShark.webp" width="105%" className="leftPad ps-4" alt=""/>
                    </div>
                  </div>
 

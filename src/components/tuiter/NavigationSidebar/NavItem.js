@@ -17,10 +17,10 @@ const NavItem = (props) => {
     return(
 
            <div className={cssActiveColor}>
-                     <img src={props.data.icon} className="d-xl-none tinyIconAdjust" height="20em"/>
+                     <img src={props.data.icon} className="d-xl-none tinyIconAdjust" height="20em" alt=""/>
 
                      <div className="row">
-                       <img src={props.data.icon} className="col-3 tinyTopPad smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" height="20em"/>
+                       <img src={props.data.icon} className="col-3 tinyTopPad smallIconAdjust d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" height="20em" alt=""/>
 
                        <div className="d-sm-none d-md-none d-lg-none d-xl-block col-xxl-2 col-xl-2 smallLabelAdjust white">
                        <Link to={props.data.href} className={forceWhite}>

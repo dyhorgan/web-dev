@@ -14,7 +14,7 @@ const PostSummaryItem = (postSummary) => {
 
                       <div className="bold white"> {postSummary.postSummary.userName}</div>
                       <div>
-                      <img src="check.jpeg" width="20px" height="20px" className="rounded-circle"/>
+                      <img src="check.jpeg" width="20px" height="20px" className="rounded-circle" alt=""/>
                       </div>
 
 
@@ -25,7 +25,7 @@ const PostSummaryItem = (postSummary) => {
               </div>
 
               <div className="pt-1 pe-1 col-3">
-                <img src={postSummary.postSummary.image} height="90em" width="140em" className="image-radius"/>
+                <img src={postSummary.postSummary.image} height="90em" width="140em" className="image-radius" alt=""/>
               </div>
 
             </div>
