@@ -10,10 +10,10 @@ const ExploreComponent = () => {
                     <div className="container searchMargin">
                       <form action="/" method="GET" className="form searchWidth">
                         <div className="search-icon">
-                          <img src="glass.png" className="mb-2" alt=""/>
+                          <img src="../glass.png" className="mb-2" alt=""/>
                         </div>
                         <input type="search" className="searchInput p-4 me-1" placeholder="Search Tuiter"/>
-                        <img src="whiteGear.png" className="gears" alt=""/>
+                        <img src="../whiteGear.png" className="gears" alt=""/>
                       </form>
                     </div>
 
@@ -49,7 +49,7 @@ const ExploreComponent = () => {
            <div className="pt-2 container">
                    <div className="form">
                      <h2 className="mainImageH ps-2 mt-10 white">Whale Shark</h2>
-                     <img src="whaleShark.webp" width="105%" className="leftPad ps-4" alt=""/>
+                     <img src="../whaleShark.webp" width="105%" className="leftPad ps-4" alt=""/>
                    </div>
                  </div>
 
