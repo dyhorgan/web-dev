@@ -10,10 +10,10 @@ const ExploreComponent = () => {
                     <div className="container searchMargin">
                       <form action="/" method="GET" className="form searchWidth">
                         <div className="search-icon">
-                          <img src="glass.png" className="mb-2"/>
+                          <img src="glass.png" className="mb-2" alt=""/>
                         </div>
                         <input type="search" className="searchInput p-4 me-1" placeholder="Search Tuiter"/>
-                        <img src="whiteGear.png" className="gears"/>
+                        <img src="whiteGear.png" className="gears" alt=""/>
                       </form>
                     </div>
 
