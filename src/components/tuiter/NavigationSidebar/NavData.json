@@ -1,26 +1,28 @@
 [
         {   "icon": "./whiteHome.png",
-            "text": "Home", "active": "home", "href": "../HomeScreen/home.html"},{
+            "text": "Home", "active": "home", "href": "/tuiter/home"},{
             "icon": "./whiteBell.png",
             "text": "Notifications",
-            "active": "notifications"
+            "active": "notifications",
+            "href": "/notifications"
             },
             {
                         "icon": "./whiteMail.png",
-                        "text": "Messages", "active": "messages"
+                        "text": "Messages", "active": "messages", "href": "/messages"
                         },{
-                                                  "icon": "./colorHashtag.png",
-                                                  "text": "Explore", "active": "explore", "href": "../ExploreScreen/explore.html"
+                                                  "icon": "https://www.citypng.com/public/uploads/preview/-115911366970a4vxyxehw.png",
+                                                  "text": "Explore", "active": "explore", "href": "/tuiter/explore"
                                                   },
                         {
                                     "icon": "./bookmark.png",
-                                    "text": "Bookmarks", "active": "bookmarks"
+                                    "text": "Bookmarks", "active": "bookmarks", "href": "/bookmark"
                                     },
                                     {
                                                 "icon": "./whiteLists.png",
-                                                "text": "Lists", "active": "lists"
+                                                "text": "Lists", "active": "lists",
+                                      "href": "/lists"
                                                 },
                                                 {"icon": "./whiteProfile.png",
-                                                "text": "Profile", "active": "profile"},
+                                                "text": "Profile", "active": "profile", "href":  "/profile"},
                                                 {"icon": "./colorMoreButton.png",
-                                                "text": "More", "active": "more"} ]
+                                                "text": "More", "active": "more", "href": "/more"} ]

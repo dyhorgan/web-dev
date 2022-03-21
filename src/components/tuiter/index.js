@@ -9,7 +9,7 @@ const Tuiter = () => {
      <div className="row mt-2">
 
         <div className="col-2 col-md-2 col-lg-1 col-xl-2 container firstColumnPad">
-          <NavigationSidebar active="home" />
+          <NavigationSidebar active="explore" />
         </div>
         <div className="border-left bottom-border-gray col-7 col-md-7 col-lg-7 col-xl-7">
           <ExploreComponent />

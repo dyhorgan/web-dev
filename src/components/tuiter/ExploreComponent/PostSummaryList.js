@@ -1,9 +1,10 @@
 import React from "react";
 import PostSummaryItem from "./PostSummaryItem.js";
 import post from "./post.json"
+import "./exploreDark.css";
 
 const PostSummaryList = () => {
-    console.log(post);
+
     let key = 0;
     return ( <div>
             { post.map(postSummary => {

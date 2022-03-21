@@ -3,6 +3,7 @@ import React from "react";
 import NavigationSidebar from "../NavigationSidebar"
 import WhoToFollowList from "../WhoToFollowList"
 import PostList from "./PostList"
+import "./exploreDark.css"
 
 const HomeScreen = () => {
     return(

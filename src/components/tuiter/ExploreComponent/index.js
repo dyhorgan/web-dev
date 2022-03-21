@@ -1,6 +1,6 @@
 import React from "react";
-
 import PostSummaryList from "./PostSummaryList.js";
+import "./exploreDark.css";
 
 const ExploreComponent = () => {
 
@@ -23,24 +23,24 @@ const ExploreComponent = () => {
 
                    <div className="row pt-3">
 
-                     <div className="col-2 other-border-gray">
+                     <div className="col-2 other-border-gray white">
 
                        <a className="linkSize noDec white">For You</a>
                      </div>
-                     <div className="col-2 bottom-border-thicker-gray">
-                       <a className="linkSize noDec grayed-text">Trending</a>
+                     <div className="col-2 bottom-border-thicker-gray white">
+                       <a className="linkSize noDec white">Trending</a>
                      </div>
-                     <div className="col-2 bottom-border-thicker-gray">
-                       <a className="linkSize noDec grayed-text">Covid-19</a>
+                     <div className="col-2 bottom-border-thicker-gray white">
+                       <a className="linkSize noDec white">Covid-19</a>
                      </div>
-                     <div className="col-2 bottom-border-thicker-gray">
-                       <a className="linkSize noDec grayed-text">News</a>
+                     <div className="col-2 bottom-border-thicker-gray white">
+                       <a className="linkSize noDec white">News</a>
                      </div>
-                     <div className="col-2 bottom-border-thicker-gray">
-                       <a className="linkSize noDec grayed-text">Sports</a>
+                     <div className="col-2 bottom-border-thicker-gray white">
+                       <a className="linkSize noDec white">Sports</a>
                      </div>
-                     <div className="col-2 bottom-border-thicker-gray">
-                       <a className="linkSize noDec grayed-text">Entertainment</a>
+                     <div className="col-2 bottom-border-thicker-gray white">
+                       <a className="linkSize noDec white">Entertainment</a>
                      </div>
 
                    </div>

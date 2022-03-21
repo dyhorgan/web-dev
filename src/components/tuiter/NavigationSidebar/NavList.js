@@ -7,7 +7,7 @@ const NavList = (active) => {
              <div>
                           {data.map(data => {
                           key += 1;
-                         return<NavItem data={data} active={active} key={key}/>;
+                         return<NavItem data={data} active={active} key={key} />;
                         })}
              </div>
 

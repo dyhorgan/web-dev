@@ -1,7 +1,8 @@
 import React from "react";
+import "./exploreDark.css";
 
 const PostSummaryItem = (postSummary) => {
-    console.log(postSummary);
+
     return(
 
     <div className="topic-height border-bottom container row">

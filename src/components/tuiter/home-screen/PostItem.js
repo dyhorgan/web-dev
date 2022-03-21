@@ -1,4 +1,5 @@
 import React from "react";
+import "./exploreDark.css"
 
 const PostItem = (props) => {
     return(
@@ -9,10 +10,10 @@ const PostItem = (props) => {
                   {props.fullPost.author}
                   <img src="check.jpeg" height="20em" className="rounded-circle" />
               </div>
-              <div>
+              <div className="white">
                   {props.fullPost.handle}
               </div>
-              <div>
+              <div className="white">
                   {props.fullPost.time}
               </div>
 
@@ -37,21 +38,21 @@ const PostItem = (props) => {
            </div>
 
            <div className="row">
-              <div className="col-3">
-                  <i className="fa-solid fa-comment"></i>
+              <div className="col-3 white">
+                  <i className="fa-solid fa-comment white"></i>
                   {props.fullPost.comments}
               </div>
-              <div className="col-3">
-                  <i className="fa-solid fa-retweet"></i>
+              <div className="col-3 white">
+                  <i className="fa-solid fa-retweet white"></i>
                   {props.fullPost.retweets}
 
               </div>
-              <div className="col-3">
-              <i className="fa-regular fa-heart"></i>
+              <div className="col-3 white">
+              <i className="fa-regular fa-heart white"></i>
                   {props.fullPost.likes}
               </div>
-              <div className="col-3">
-                <i className="fas fa-download"></i>
+              <div className="col-3 white">
+                <i className="fas fa-download white"></i>
               </div>
            </div>
 

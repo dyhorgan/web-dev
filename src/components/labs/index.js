@@ -8,7 +8,7 @@ import TodoList from "./todo/TodoList.js";
 
 const Labs = () => {
     return(
-        <div>
+        <div style={{ backgroundColor: 'white' }}>
         <h1>Labs</h1>
             <ConditionalOutput/>
         <Styles/>

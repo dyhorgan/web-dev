@@ -1,9 +1,10 @@
 import React from "react"
 import PostItem from "./PostItem.js";
 import fullPost from "./fullPost.json";
+import "./exploreDark.css";
 
 const PostList = () => {
-    console.log(fullPost);
+
     let key = 0;
     return(<>
                             {
