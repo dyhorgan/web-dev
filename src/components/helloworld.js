@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const HelloWorld = () => {
     return(
         <>
-        <h1>Hello World!</h1>
+        <h1 className="white">Hello World!</h1>
                   <Link to="/">
                       Labs
                   </Link> |

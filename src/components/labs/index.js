@@ -1,5 +1,5 @@
 import React from "react";
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
@@ -14,6 +14,12 @@ const Labs = () => {
         <Styles/>
         <Classes/>
         <TodoList/>
+        <Link to="/hello">
+                              HelloWorld
+                          </Link> |
+                          <Link to="/tuiter">
+                              Tuiter
+                          </Link>
         </div>
 
     )

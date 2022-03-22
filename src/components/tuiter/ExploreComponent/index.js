@@ -1,61 +1,30 @@
 import React from "react";
-import PostSummaryList from "./PostSummaryList.js";
-import "./exploreDark.css";
+//import {Link} from "react-router-dom";
+import ExploreElement from "./exploreElement"
+import NavigationSidebar from "../NavigationSidebar"
+import WhoToFollowList from "../WhoToFollowList"
 
-const ExploreComponent = () => {
+const Tuiter = () => {
+    return(
+     <div className="row mt-2">
 
-    return( <div>
-             <div className="center">
+        <div className="col-2 col-md-2 col-lg-1 col-xl-2 container firstColumnPad">
+          <NavigationSidebar active="explore" />
+        </div>
+        <div className="border-left bottom-border-gray col-7 col-md-7 col-lg-7 col-xl-7">
+          <ExploreElement/>
+        </div>
+     <div className="d-sm-none d-md-none d-lg-block col-lg-3 col-xl-3 border-left container">
+       <div className="row border-right backgroundDarkGray">
+          <div className="bold white">
+           Who to Follow
+          </div>
+       </div>
+        <WhoToFollowList />
+     </div>
 
-                    <div className="container searchMargin">
-                      <form action="/" method="GET" className="form searchWidth">
-                        <div className="search-icon">
-                          <img src="../glass.png" className="mb-2" alt=""/>
-                        </div>
-                        <input type="search" className="searchInput p-4 me-1" placeholder="Search Tuiter"/>
-                        <img src="../whiteGear.png" className="gears" alt=""/>
-                      </form>
-                    </div>
+     </div>
+    )
+};
 
-                  </div>
-
-           <div className="container rounded">
-
-                   <div className="row pt-3">
-
-                     <div className="col-2 other-border-gray white">
-
-                       <a className="linkSize noDec white" href="/sample">For You</a>
-                     </div>
-                     <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white" href="/sample">Trending</a>
-                     </div>
-                     <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white" href="/sample">Covid-19</a>
-                     </div>
-                     <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white" href="/sample">News</a>
-                     </div>
-                     <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white" href="/sample">Sports</a>
-                     </div>
-                     <div className="col-2 bottom-border-thicker-gray white">
-                       <a className="linkSize noDec white" href="/sample">Entertainment</a>
-                     </div>
-
-                   </div>
-                 </div>
-
-           <div className="pt-2 container">
-                   <div className="form">
-                     <h2 className="mainImageH ps-2 mt-10 white">Whale Shark</h2>
-                     <img src="../whaleShark.webp" width="105%" className="leftPad ps-4" alt=""/>
-                   </div>
-                 </div>
-
-           <div className="container backgroundDarkGray">
-           {<PostSummaryList />}
-           </div>
-     </div>);
-}
-export default ExploreComponent;
+export default Tuiter;

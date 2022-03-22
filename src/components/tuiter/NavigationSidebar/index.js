@@ -6,6 +6,10 @@ const NavigationSidebar = ({active}) => {
 
     return(
             <div>
+            <Link to="/">
+            <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" width="15%" alt=""/>
+            </Link>
+
             <NavList active={active} />
 
             <div className="d-grid mt-2">
