@@ -15,7 +15,7 @@ const Labs = () => {
         <Classes/>
         <TodoList/>
         <Link to="/hello">
-                              HelloWorld
+                              Hello
                           </Link> |
                           <Link to="/tuiter">
                               Tuiter
