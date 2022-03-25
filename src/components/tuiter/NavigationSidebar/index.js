@@ -15,7 +15,7 @@ const NavigationSidebar = ({active}) => {
             <div className="d-grid mt-2">
                 <Link to="/tweet"
                    className="btn btn-primary btn-block rounded-pill">
-                    Tweet!</Link>
+                    Tweet</Link>
             </div>
             </div>
     );
