@@ -23,6 +23,6 @@
                                       "href": "/lists"
                                                 },
                                                 {"icon": "../whiteProfile.png",
-                                                "text": "Profile", "active2": "profile", "href":  "/profile"},
+                                                "text": "Profile", "active2": "profile", "href":  "/tuiter/profile"},
                                                 {"icon": "../colorMoreButton.png",
                                                 "text": "More", "active2": "more", "href": "/more"} ]

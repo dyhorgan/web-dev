@@ -1,12 +1,12 @@
 import React from "react";
 import NavList from "./NavList.js";
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const NavigationSidebar = ({active}) => {
 
     return(
             <div>
-            <Link to="/">
+            <Link to="/labs">
             <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" width="15%" alt=""/>
             </Link>
 

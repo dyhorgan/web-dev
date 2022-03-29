@@ -1,0 +1,8 @@
+{
+"firstName": "FirstName", "lastName": "LastName", "handle": "handle",
+"profilePicture": "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_600_q85.jpg", "bannerPicture": "https://i.pinimg.com/originals/8c/aa/e3/8caae3f903c8ab1f923e5d6cd5258fdf.jpg",
+"bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
+"website": "youtube.com/webdevtv",
+"location": "Boston, MA",	"dateOfBirth": "7/7/1968",	"dateJoined":"4/2009",
+"followingCount": 312,	"followersCount": 180, "tweetsCount": 5196
+}

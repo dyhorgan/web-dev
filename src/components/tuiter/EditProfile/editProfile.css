@@ -1,0 +1,25 @@
+.top-border-gray {
+border-top: solid #808080;
+}
+
+
+.flex-between {
+ display: flex;
+ justify-content: space-between;
+}
+
+.saveProfileMargin{
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.cameraPosition {
+position:absolute;
+left: 15%;
+top: 24em;
+z-index: 2;
+}
+
+.picPosition {
+z-index: 1;
+}

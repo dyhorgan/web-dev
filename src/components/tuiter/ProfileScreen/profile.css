@@ -1,0 +1,21 @@
+.editProfileMargin{
+margin-top: 4em;
+margin-bottom: 4em;
+}
+
+.right {
+  float: right;
+}
+
+.flex-between {
+ display: flex;
+ justify-content: space-between;
+}
+
+.gray {
+  color: #808080;
+}
+
+.paddingRight {
+  padding-right: 2em;
+}
