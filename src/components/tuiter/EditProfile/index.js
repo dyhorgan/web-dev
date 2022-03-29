@@ -18,7 +18,9 @@ const EditProfile = () => {
   return(<>
   <div className="flex-between">
     <div className="flowRow">
-    <i className="fa-solid fa-xmark gray paddingRight"></i>
+    <Link to="/tuiter/profile">
+      <i className="fa-solid fa-xmark gray paddingRight"></i>
+    </Link>
     <h4 className="white">Edit Profile</h4>
     </div>
     <Link to="/tuiter/profile">
