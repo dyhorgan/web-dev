@@ -45,8 +45,10 @@ const TuitList = () => {
                   tuit: e.target.value})}></textarea>
                             {
                                tuits.map(tuit => {
+
                                 key += 1;
-                                tuit["_id"] = key;
+                                console.log(tuit);
+//                                tuit["_id"] = key;
                               return(
 
                               <TuitListItem tuit={tuit} key={key} deleteTuit={deleteTuit} updateTuit={updateTuit}/>
