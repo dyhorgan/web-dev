@@ -47,8 +47,7 @@ const TuitList = () => {
                                tuits.map(tuit => {
 
                                 key += 1;
-                                console.log(tuit);
-//                                tuit["_id"] = key;
+
                               return(
 
                               <TuitListItem tuit={tuit} key={key} deleteTuit={deleteTuit} updateTuit={updateTuit}/>

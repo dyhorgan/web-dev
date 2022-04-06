@@ -18,8 +18,7 @@ export const findAllTuits = async (dispatch) => {
 }
 
 export const deleteTuit = async (dispatch, tuit) => {
- console.log("logging in delete action")
- console.log(tuit)
+
  const response = await service.deleteTuit(tuit);
  dispatch({
    type: DELETE_TUIT,

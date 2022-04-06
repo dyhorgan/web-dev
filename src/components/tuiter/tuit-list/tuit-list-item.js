@@ -6,12 +6,9 @@ import {useDispatch} from "react-redux";
 import "./tuit.css"
 
 const TuitListItem = (props) => {
-//    console.log(props.tuit)
-//    let {deleteTuit} = props;
+
     const dispatch = useDispatch();
-//      const deleteTuit = (tuit) => {
-//        dispatch({type: 'delete-tuit', tuit})
-//      };
+
 
     return(<>
 
