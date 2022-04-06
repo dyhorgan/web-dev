@@ -63,11 +63,12 @@ const TuitListItem = (props) => {
 
               </div>
               <div className="col-3 white">
-                   Likes: {props.tuit.likes}
+
                    <i onClick={() => props.updateTuit(dispatch, {
                      ...props.tuit,
                      likes: props.tuit.likes + 1
                    })} className="far fa-thumbs-up ms-2"></i>
+                   {props.tuit.likes}
               </div>
               <div className="col-3 white">
                 <i className="fas fa-download white"></i>
