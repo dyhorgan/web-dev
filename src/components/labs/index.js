@@ -10,6 +10,12 @@ import ReduxExamples from "./redux-examples";
 const Labs = () => {
     return(
         <div style={{ backgroundColor: 'white' }}>
+                <Link to="/hello">
+                                      Hello
+                                  </Link> |
+                                  <Link to="/tuiter">
+                                      Tuiter
+                                  </Link>
         <h1>Labs</h1>
             <ConditionalOutput/>
         <Styles/>
