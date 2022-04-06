@@ -29,8 +29,7 @@ const TuitList = () => {
 //     useEffect(findAllTuits, []);
 
  useEffect(() =>
-   findAllTuits(dispatch),
-   []);
+   findAllTuits(dispatch),);
 
 
     let key = 0;
