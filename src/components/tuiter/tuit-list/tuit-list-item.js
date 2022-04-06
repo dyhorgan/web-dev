@@ -2,7 +2,7 @@ import React from "react";
 //import "./exploreDark.css"
 //import DeleteTuit from "./delete-tuit.js"
 import {useDispatch} from "react-redux";
-import TuitStats from "./tuit-stats";
+//import TuitStats from "./tuit-stats";
 import "./tuit.css"
 
 const TuitListItem = (props) => {

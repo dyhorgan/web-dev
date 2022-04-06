@@ -5,11 +5,11 @@ import {CREATE_TUIT, DELETE_TUIT, UPDATE_TUIT, FIND_ALL_TUITS}
 //{ "author": "New York Post", "handle": "@nypost", "time": "23h", "text": "Grimes seen reading Karl Marx after split from Elon Musk", "image": "https://images.indianexpress.com/2021/10/grimmes-marx.jpg", "comments": "965", "retweets": "2.4", "likes": "4k", "stats": {"likes": 37}}
 const tuitsReducer = (state = [], action) => {
 
-    let tuit;
-
-    if(action.tuit){
-      tuit = action.tuit;
-    }
+//    let tuit;
+//
+//    if(action.tuit){
+//      tuit = action.tuit;
+//    }
 
     switch (action.type) {
 //      case 'like-tuit':

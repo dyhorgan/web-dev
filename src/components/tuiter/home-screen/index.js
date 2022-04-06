@@ -5,8 +5,8 @@ import React from "react";
 //import PostList from "./PostList"
 import TuitList from "../tuit-list"
 import "./exploreDark.css"
-import WhatsHappening
-       from "./whats-happening";
+//import WhatsHappening
+//       from "./whats-happening";
 
 const HomeScreen = () => {
     return(
