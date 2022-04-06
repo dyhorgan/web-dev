@@ -17,7 +17,7 @@ const TuitStats = ({tuit}) => {
       !tuit.liked &&
       <i className="far fa-heart me-1"></i>
     }
-    {tuit.stats && tuit.stats.likes}
+    {tuit.likes}
     </span>
   );
 }

@@ -6,23 +6,27 @@ import TuitStats from "./tuit-stats";
 import "./tuit.css"
 
 const TuitListItem = (props) => {
-    console.log(props)
+    console.log(props.tuit)
+//    let {deleteTuit} = props;
     const dispatch = useDispatch();
-      const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-      };
+//      const deleteTuit = (tuit) => {
+//        dispatch({type: 'delete-tuit', tuit})
+//      };
 
     return(<>
-        <i onClick={() => deleteTuit(props.tuit)} className="fas fa-remove fa-2x fa-pull-right"></i>
+
+        <i className="fas fa-remove fa-2x fa-pull-right"
+          onClick={() => props.deleteTuit(
+            dispatch, props.tuit)}></i>
         <div className="container border-bottom">
            <div className="flexRow">
 
               <div className="bold white paddingRight">
-                  {props.tuit.author}
+                  {props.tuit.postedBy.username}
                   <img src="check.jpeg" height="20em" className="rounded-circle" alt=""/>
               </div>
               <div className="white paddingRight">
-                  {props.tuit.handle}
+                  {props.tuit.postedBy.handle}
               </div>
               <div className="white">
                   {props.tuit.time}
@@ -35,7 +39,7 @@ const TuitListItem = (props) => {
            <div className="row">
 
            <div className="col-6 white">
-           {props.tuit.text}
+           {props.tuit.tuit}
            </div>
 
            </div>
@@ -59,7 +63,11 @@ const TuitListItem = (props) => {
 
               </div>
               <div className="col-3 white">
-              <TuitStats tuit={props.tuit}/>
+                   Likes: {props.tuit.likes}
+                   <i onClick={() => props.updateTuit(dispatch, {
+                     ...props.tuit,
+                     likes: props.tuit.likes + 1
+                   })} className="far fa-thumbs-up ms-2"></i>
               </div>
               <div className="col-3 white">
                 <i className="fas fa-download white"></i>

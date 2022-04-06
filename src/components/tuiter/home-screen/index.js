@@ -17,7 +17,6 @@ const HomeScreen = () => {
 //        </div>
 //        <div className="border-left bottom-border-gray col-7 col-md-7 col-lg-7 col-xl-7">
           <div>
-          <WhatsHappening />
           <TuitList />
           </div>
 //        </div>
