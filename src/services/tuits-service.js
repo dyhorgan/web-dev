@@ -1,5 +1,8 @@
 import axios from 'axios';
-const TUITS_API = 'http://localhost:4000/api/tuits';
+//const TUITS_API = 'http://localhost:4000/api/tuits';
+//const TUITS_API = 'https://full-stack-developer-server2.herokuapp.com/api/tuits'
+const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:4000/api';
+const TUITS_API = `${API_BASE}/tuits`;
 
 //export const createTuit = async (tuit) => {}
 //export const findAllTuits = async () => {}
