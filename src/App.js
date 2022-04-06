@@ -17,7 +17,8 @@ function App() {
   return (     <BrowserRouter>
                <div className="container">
                <Routes>
-               <Route path="/">
+               <Route path="/" >
+                <Route path="/" exact={true} element={<Labs/>} />
                 <Route path="labs" element={<Labs/>} />
                 <Route path="hello" element={<HelloWorld/>} />
 
