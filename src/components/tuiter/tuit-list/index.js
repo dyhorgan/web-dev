@@ -18,7 +18,8 @@ const TuitList = () => {
                                                 "retweets": 0,
                                                 "time": "just now"
                                               });
-
+    console.log("logging in tuitlist")
+    console.log(tuits)
 //     const findAllTuits = async () => {
 //       const tuits = await service.findAllTuits();
 //       dispatch({
