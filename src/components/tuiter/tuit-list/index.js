@@ -4,6 +4,7 @@ import TuitListItem from "./tuit-list-item";
 import {useSelector, useDispatch} from "react-redux";
 import {createTuit, deleteTuit, findAllTuits, updateTuit}
   from "../../../actions/tuits-actions";
+import "./tuit.css"
 
 
 const TuitList = () => {
@@ -16,7 +17,8 @@ const TuitList = () => {
                                                 "likes": 0,
                                                 "comments": 0,
                                                 "retweets": 0,
-                                                "time": "just now"
+                                                "time": "just now",
+                                                "propic": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
                                               });
     console.log("logging in tuitlist")
     console.log(tuits)
@@ -35,15 +37,17 @@ const TuitList = () => {
 
     let key = 0;
     return(<>
-              <button onClick={() =>
-                createTuit(dispatch, newTuit)}
-                  className="btn btn-primary float-end">
-                Tuit
-              </button>
+
               <textarea className="form-control w-75"
                 onChange={(e) =>
                   setNewTuit({...newTuit,
                   tuit: e.target.value})}></textarea>
+              <button onClick={() =>
+                              createTuit(dispatch, newTuit)}
+                                className="btn btn-primary float-end">
+                              Tuit
+              </button>
+                            <div className="outline tinyPaddingRight">
                             {
                                tuits.map(tuit => {
 
@@ -56,6 +60,7 @@ const TuitList = () => {
                               );
                              })
                             }
+                            </div>
           </>
     )
 }

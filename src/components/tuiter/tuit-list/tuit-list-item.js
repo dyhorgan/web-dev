@@ -17,15 +17,17 @@ const TuitListItem = (props) => {
             dispatch, props.tuit)}></i>
         <div className="container border-bottom">
            <div className="flexRow">
-
+              <div className="paddingRight">
+                <img src={props.tuit.propic} width="100%" height="50em" alt=""/>
+              </div>
               <div className="bold white paddingRight">
                   {props.tuit.postedBy.username}
                   <img src="check.jpeg" height="20em" className="rounded-circle" alt=""/>
               </div>
-              <div className="white paddingRight">
+              <div className="white paddingRight gray">
                   {props.tuit.postedBy.handle}
               </div>
-              <div className="white">
+              <div className="gray">
                   {props.tuit.time}
               </div>
 
@@ -35,7 +37,7 @@ const TuitListItem = (props) => {
 
            <div className="row">
 
-           <div className="col-6 white">
+           <div className="col-12 white">
            {props.tuit.tuit}
            </div>
 
@@ -44,7 +46,7 @@ const TuitListItem = (props) => {
            <div className="row">
 
            <div className="col-12 image-radius">
-           <img src={props.tuit.image} width="100%" height="250em" className="image-radius" alt=""/>
+           <img src={props.tuit.image} width="100%" height="250em" className="image-radius outline" alt=""/>
            </div>
 
            </div>
