@@ -12,7 +12,7 @@ console.log(TUITS_API);
 export const findAllTuits = async () => {
  const response = await axios.get(TUITS_API);
  const tuits = response.data;
- console.log("logging tuits in services");
+ console.log("logging tuits in services!");
  console.log(tuits);
  return tuits;
 }
