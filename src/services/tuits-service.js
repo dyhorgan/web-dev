@@ -3,7 +3,7 @@ import axios from 'axios';
 //const TUITS_API = 'https://full-stack-developer-server2.herokuapp.com/api/tuits'
 
 const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:4000/api';
-console.log("logging process.env.Reactappapibase")
+
 console.log(process.env.REACT_APP_API_BASE);
 
 const TUITS_API = `${API_BASE}/tuits`;
