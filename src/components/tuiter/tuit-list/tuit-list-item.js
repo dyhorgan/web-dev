@@ -8,7 +8,7 @@ import "./tuit.css"
 const TuitListItem = (props) => {
 
     const dispatch = useDispatch();
-
+    console.log("in list item");
 
     return(<>
 
