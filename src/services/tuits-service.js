@@ -6,14 +6,14 @@ const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:4000/api';
 
 const TUITS_API = `${API_BASE}/tuits`;
 
-//export const createTuit = async (tuit) => {}
-//export const findAllTuits = async () => {}
-//export const deleteTuit = async (tuit) => {}
-//export const updateTuit = async (tuit) => {}
+console.log("tuits api:");
+console.log(TUITS_API);
 
 export const findAllTuits = async () => {
  const response = await axios.get(TUITS_API);
  const tuits = response.data;
+ console.log("logging tuits in services");
+ console.log(tuits);
  return tuits;
 }
 
